@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { StorageListComponent } from './storage-list.component';
+import { ImageModelComponent } from './image-model.component';
 
-describe('StorageListComponent', () => {
-  let component: StorageListComponent;
-  let fixture: ComponentFixture<StorageListComponent>;
+describe('ImageModelComponent', () => {
+  let component: ImageModelComponent;
+  let fixture: ComponentFixture<ImageModelComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [StorageListComponent]
+      imports: [ImageModelComponent]
     })
     .compileComponents();
     
-    fixture = TestBed.createComponent(StorageListComponent);
+    fixture = TestBed.createComponent(ImageModelComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

@@ -1,1 +1,5 @@
-<input (change)="onFileSelected($event)" type="file" name="file-upload" id="file-upload" class="sr-only">
+<input (change)="onFileSelected($event)" multiple type="file" name="file-upload" id="file-upload" class="sr-only">
+
+<button (click)="getAllFiles()">GET ALL FILES</button>
+
+<button (click)="deleteFiles('archivos/anh_tai.jpg')">DELETE Bai tap on_1.pdf</button>
